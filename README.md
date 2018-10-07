@@ -27,13 +27,14 @@ To show an example, below you can see the latency without using any directive:
 ![no_pipeline](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/no_pipeline.png)
 
 Latency is then 1621[clock cycles]. 
-*Xilinx Doc.: Latency is defined as the number of clock cycles required to produce an output*
+
+*Xilinx Doc.: Latency is defined as the number of clock cycles required to produce an output*.
 
 Now, specify a directive for loop 'lazoFilas' (image below).
 
 ![pipeline_directive](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/pipeline_directive.png)
 
-Latency improved in comparison with the first result (image below), getting as a result 155[clock cycles]
+Latency improved in comparison with the first result, getting as a latency of 155[clock cycles] (image below).
 
 ![pipeline](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/pipeline.png)
 
