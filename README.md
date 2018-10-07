@@ -39,7 +39,9 @@ Latency improved in comparison with the first result, getting as a latency of 15
 ![pipeline](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/pipeline.png)
 
 latency_NoPipeline = 1621 [clock cycles]
+
 latency_Pipeline   = 155  [clock cycles]
+
 change = 1621/155  = 10.458 times smaller
 
 So it is a good change to get to know how to use these directives in order to meet requirements.
