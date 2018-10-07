@@ -8,12 +8,13 @@ set_top prodMat
 add_files practica1_clase/solution1/source/config.h
 add_files practica1_clase/solution1/source/prodMat.c
 add_files practica1_clase/solution1/test/test.c
+add_files -tb practica1_clase/solution1/test/test.c
 open_solution "solution1"
 set_part {xc7z020clg484-1} -tool vivado
 create_clock -period 10 -name default
 set_clock_uncertainty 2
-#source "./practica1_clase/solution1/directives.tcl"
-#csim_design
+source "./practica1_clase/solution1/directives.tcl"
+csim_design -setup
 csynth_design
-#cosim_design
+cosim_design
 export_design -format ip_catalog

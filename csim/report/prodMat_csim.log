@@ -1,0 +1,12 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../source/prodMat.c in debug mode
+INFO: [HLS 200-10] Running '/opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/apcc'
+INFO: [HLS 200-10] For user 'betegon' on host 'Turbo9000' (Linux_x86_64 version 4.15.0-34-generic) on Sun Oct 07 02:38:45 CEST 2018
+INFO: [HLS 200-10] On os Ubuntu 18.04.1 LTS
+INFO: [HLS 200-10] In directory '/home/betegon/vivado/practica1_clase/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_betegon/194641538872725649534
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+INFO: [SIM 1] CSim file generation done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************
