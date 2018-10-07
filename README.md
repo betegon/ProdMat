@@ -23,14 +23,18 @@ One of the most common directives when talking about RTL synthesis or High-level
 More information about directives is available in [Xilinx Documentation](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwi-1OyukfPdAhVFWBoKHf1qDhYQFjAAegQICRAC&url=http%3A%2F%2Fwww.xilinx.com%2Fpublications%2Fprod_mktg%2Fclub_vivado%2Fpresentation-2015%2Fparis%2FXilinx-AdvancedSynthesis.pdf&usg=AOvVaw3t63mJ16w0dTlO-9P2XuwE)
 
 To show an example, below you can see the latency without using any directive:
+
 ![no_pipeline](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/no_pipeline.png)
+
 Latency is then 1621[clock cycles]. 
 *Xilinx Doc.: Latency is defined as the number of clock cycles required to produce an output*
 
 Now, specify a directive for loop 'lazoFilas' (image below).
+
 ![pipeline_directive](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/pipeline_directive.png)
 
 Latency improved in comparison with the first result (image below), getting as a result 155[clock cycles]
+
 ![pipeline](https://github.com/betegon/ProdMat/blob/master/pictures_statistics/pipeline.png)
 
 latency_NoPipeline = 1621 [clock cycles]
